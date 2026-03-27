@@ -1,4 +1,4 @@
-package exception_hand;
+package exception_handling;
 import java.util.Scanner;
 
 public class Try_Catch_04 {
