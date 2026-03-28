@@ -1,3 +1,9 @@
+
+/*
+ * Write a complete Java program that reads a bunch of numbers 
+ * from a file (input.txt) and separates the even number and odd numbers 
+ * and writes them into two separate files namely even.txt and odd.txt.
+ */
 package File;
 
 import java.io.*;
@@ -9,24 +15,6 @@ public class lab06 {
 		File in = new File("src/File/Input.txt");
 		FileWriter e = new FileWriter("src/File/Even.txt");
 		FileWriter o = new FileWriter("src/File/Odd.txt");
-
-		if (!in.exists()) {
-			System.out.println("File not found. Creating and adding 1-100...");
-			FileWriter wr = new FileWriter(in);
-
-			for (int i = 1; i <= 100; i++) {
-				wr.write(i + " ");
-			}
-			wr.close();
-		} else {
-			FileWriter wr = new FileWriter(in);
-			
-			for (int i = 1; i <= 100; i++) {
-				wr.write(i + " ");
-			}
-			wr.close();
-			System.out.println("File already exists. Skipping creation...");
-		}
 
 		Scanner sc = new Scanner(in);
 
