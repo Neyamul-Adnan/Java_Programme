@@ -9,8 +9,8 @@ import java.util.Scanner;
 public class lab07 {
 
 	public static void main(String[] args) throws Exception{
-		File in = new File("src/File/File.txt");
-		//PrintWriter F = new PrintWriter(in); 
+		File in = new File("MainFile.txt");
+
 		
 		Scanner sc = new Scanner(in);
 		
