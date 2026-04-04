@@ -16,6 +16,7 @@ public class AddNumbers<T extends Number> {
 	public static void main(String[] args) {
 
 		AddNumbers<Integer> in = new AddNumbers<>(5, 10);
+		System.out.println("Integer sum = " + in.add());
 		
 
 	}
