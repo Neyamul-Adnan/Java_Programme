@@ -6,5 +6,8 @@ public class PrintArrays {
 		// TODO Auto-generated method stub
 
 	}
+	public static <T> void printArrays(T[] array) {
+		return ;
+	}
 
 }
