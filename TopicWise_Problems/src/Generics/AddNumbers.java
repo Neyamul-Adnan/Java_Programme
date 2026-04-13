@@ -23,10 +23,10 @@ public class AddNumbers<T extends Number> {
 	public static void main(String[] args) {
 
 		AddNumbers<Integer> in = new AddNumbers<>(15, 25);
-		System.out.println("Integer Sum = " + in.add());
+		System.out.println("Integer Sum : " + in.add());
 
 		AddNumbers<Double> d = new AddNumbers<>(5.6, 4.9);
-		System.out.println("Double Sum = " + d.add());
+		System.out.println("Double Sum : " + d.add());
 
 	}
 }
