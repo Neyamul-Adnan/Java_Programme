@@ -1,3 +1,10 @@
+/*
+A Generic Method for Printing Arrays
+Create a generic method called printArray that can print any type of array. 
+For example, create an array of integers and an array of strings, 
+and use the method to print each array.
+ */
+
 package Generics;
 
 public class PrintArrays {
