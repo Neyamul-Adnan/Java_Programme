@@ -1,3 +1,10 @@
+/*
+A Generic Class for Adding Two Numbers
+Create a generic class called AddNumbers that can add two numbers of any data type. 
+Create instances of the class and use them to add two integers and two doubles. 
+Use wrapper classes (Number, Integer, Double etc.) to create instances.
+*/
+
 package Generics;
 
 public class AddNumbers<T extends Number> {
