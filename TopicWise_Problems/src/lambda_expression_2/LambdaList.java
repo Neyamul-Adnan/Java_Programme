@@ -30,5 +30,11 @@ public class LambdaList {
         System.out.print("Odd numbers:");
         List<Integer> odd = list.stream().filter(n -> n % 2 != 0).toList();
         System.out.println(odd);
+        
+        //Sum of square of Odd and Even numbers
+        int evenSum = list.stream().filter(n -> n % 2 == 0).map(n -> n * n).reduce(0, Integer::sum);
+        System.out.println("Sum of even squares = " + evenSum);
+        int oddSum = list.stream().filter(n -> n % 2 != 0).map(n -> n * n).reduce(0, Integer::sum);
+        System.out.println("Sum of odd squares = " + oddSum);
 	}
 }
