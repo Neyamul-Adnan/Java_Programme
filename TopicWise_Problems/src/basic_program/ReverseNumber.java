@@ -1,23 +1,20 @@
 package basic_program;
-
 import java.util.Scanner;
 
 public class ReverseNumber {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int num = sc.nextInt();
+        int reversed = 0;
 
-		System.out.print("Enter a number:");
-		int n = sc.nextInt();
-		int rev=0;
-		{
-		while(n != 0)
-		int temp = n%10;
-		 rev = rev * 10 + temp;
-		 n/=10;
-		
-		}
-		System.out.println(rev);
-	}
+        while (num != 0) {
+            int digit = num % 10;
+            reversed = reversed * 10 + digit;
+            num /= 10;
+        }
 
+        System.out.print("The reverse number is: " + reversed);
+    }
 }
