@@ -31,9 +31,6 @@ public class OddEven {
 
 	}
 
-	private static void While(boolean hasNextInt) {
-		// TODO Auto-generated method stub
-		
-	}
+	
 
 }
